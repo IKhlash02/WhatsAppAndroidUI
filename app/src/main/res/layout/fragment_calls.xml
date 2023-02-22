@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    tools:context=".CallsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/link"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="21dp"
+            android:text="@string/buat_tautan_panggilan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/panggilan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="46dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/bagikan_tautan_untuk_panggilan"
+            android:textColor="@color/Gray"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/whatsapp_anda"
+            android:textColor="@color/Gray"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/panggilan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/terbaru"
+            android:textColor="@color/Gray"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+

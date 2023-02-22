@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    tools:context=".StatusFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/profile"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="76dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="21dp"
+            android:fontFamily="@font/roboto_black"
+            android:text="@string/status_saya"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="46dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/ketuk_untuk_menambahkan_pembaruan"
+            android:textColor="@color/Gray"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="82dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/pembaruan_terkini"
+            android:textColor="@color/Gray"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="98dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="16dp"
+                android:contentDescription="@string/camera"
+                app:fabSize="normal"/>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

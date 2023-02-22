@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">whatsApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Status">Status</string>
+    <string name="Chats">Chat</string>
+    <string name="Calls">Panggilan</string>
+    <string name="group_baru">Group Baru</string>
+    <string name="siaran_baru">Siaran Baru</string>
+    <string name="perangkat_tertaut">Perangkat tertaut</string>
+    <string name="pesan_berbintang">Pesan Berbintang</string>
+    <string name="setelan">Setelan</string>
+    <string name="search">Search</string>
+    <string name="status_saya">Status saya</string>
+    <string name="buat_tautan_panggilan">Buat tautan panggilan</string>
+    <string name="bagikan_tautan_untuk_panggilan">Bagikan tautan untuk panggilan</string>
+    <string name="whatsapp_anda">WhatsApp Anda</string>
+    <string name="terbaru">Terbaru</string>
+    <string name="ketuk_untuk_menambahkan_pembaruan">Ketuk untuk menambahkan pembaruan</string>
+    <string name="pembaruan_terkini">Pembaruan terkini</string>
+    <string name="camera">Camera</string>
+
+    <string-array name="data_name">
+        <item>Budi</item>
+        <item>Dewi</item>
+        <item>Steven</item>
+        <item>Hana</item>
+        <item>jumintem</item>
+        <item>Onah</item>
+        <item>sakura</item>
+        <item>Angel</item>
+        <item>Thomas</item>
+
+    </string-array>
+
+    <string-array name="data_chats">
+        <item>Dimana Bang</item>
+        <item>Lagi Apa</item>
+        <item>Bumi Bulat atau datar</item>
+        <item>Kapan kita ketemu</item>
+        <item>Besok Sekolah</item>
+        <item>Kemaren kemana</item>
+        <item>boruto ampas</item>
+        <item>info tugas</item>
+        <item>bagi duit bang</item>
+
+    </string-array>
+
+    <string-array name="data_status">
+        <item>43 menit yang lalu</item>
+        <item>Hari ini 08.00</item>
+        <item>Kemarin 20.46</item>
+        <item>Kemarin 20.16</item>
+        <item>Kemarin 19.18</item>
+        <item>Kemarin 18.00</item>
+        <item>Kemarin 17.23</item>
+        <item>Kemarin 16.23</item>
+        <item>Kemarin 10.53</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/photo1</item>
+        <item>@drawable/photo2</item>
+        <item>@drawable/photo3</item>
+        <item>@drawable/photo4</item>
+        <item>@drawable/photo5</item>
+        <item>@drawable/photo6</item>
+        <item>@drawable/photo7</item>
+        <item>@drawable/photo8</item>
+        <item>@drawable/photo9</item>
+        <item>@drawable/photo10</item>
+    </integer-array>
+
+    <integer-array name="data_arrow">
+        <item>@drawable/made_call</item>
+        <item>@drawable/accept_calll</item>
+        <item>@drawable/accept_calll</item>
+        <item>@drawable/reject_call</item>
+        <item>@drawable/made_call</item>
+        <item>@drawable/made_call</item>
+        <item>@drawable/reject_call</item>
+        <item>@drawable/reject_call</item>
+        <item>@drawable/accept_calll</item>
+        <item>@drawable/accept_calll</item>
+    </integer-array>
+
+    <integer-array name="data_call">
+        <item>@drawable/video_call</item>
+        <item>@drawable/calll</item>
+        <item>@drawable/calll</item>
+        <item>@drawable/video_call</item>
+        <item>@drawable/calll</item>
+        <item>@drawable/calll</item>
+        <item>@drawable/calll</item>
+        <item>@drawable/calll</item>
+        <item>@drawable/calll</item>
+        <item>@drawable/video_call</item>
+    </integer-array>
+
+    <string-array name="data_date_call">
+        <item>2 Februari 17.13</item>
+        <item>1 Februari 14.13</item>
+        <item>(4) 1 Februari 05.13</item>
+        <item>29 Januari 14.13</item>
+        <item>28 Januari 14.00</item>
+        <item>20 Januari 12.08</item>
+        <item>18 Januari 10.08</item>
+        <item>15 Januari 08.08</item>
+        <item>13 Januari 04.08</item>
+    </string-array>
+
+</resources>
