@@ -12,7 +12,7 @@ Tampilan WhatsApp dengan kotlin
  * status dan
  * riwayat panggilan
 # Screenshots
- <img src="https://user-images.githubusercontent.com/119332007/222139211-4f1127ff-2a46-438e-94fe-48412e80e572.png"> <img src="https://user-images.githubusercontent.com/119332007/222139302-6921ab1a-962b-40dd-9447-0cd1ce015226.png"> <img src="https://user-images.githubusercontent.com/119332007/222139361-c7cec2b0-7b60-4b4a-8268-5601acd4b2a1.png"> <img src="https://user-images.githubusercontent.com/119332007/222139392-00b4e4aa-f1a0-4269-8a7a-6987bc340072.png">
+ <img src="https://user-images.githubusercontent.com/119332007/222139211-4f1127ff-2a46-438e-94fe-48412e80e572.png" width="200"> <img src="https://user-images.githubusercontent.com/119332007/222139302-6921ab1a-962b-40dd-9447-0cd1ce015226.png" width="200"> <img src="https://user-images.githubusercontent.com/119332007/222139361-c7cec2b0-7b60-4b4a-8268-5601acd4b2a1.png" width="200"> <img src="https://user-images.githubusercontent.com/119332007/222139392-00b4e4aa-f1a0-4269-8a7a-6987bc340072.png" width="200">
 # Tech Used
  ![Kotlin](https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white)
       
